@@ -15,6 +15,7 @@
     margin: 0;
     padding: 0;
 
+
 }
 
 html {
@@ -27,8 +28,12 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 40px;
+    width: 100%;
+    padding: 20px;
     min-width: 320px;
+    height: 200px;
+    text-align: center;
+    background: linear-gradient(207.8deg, #590100 20%, #D16500 100%);
 }
 
 .header-title {
