@@ -1,0 +1,41 @@
+:root {
+    /* Color Theme Swatches in Hex */
+    --Paprika-Power-1: #D16500;
+    --Paprika-Power-2: #AB3700;
+    --Paprika-Power-3: #7A1700;
+    --Paprika-Power-4: #590100;
+    --Paprika-Power-5: #380019;
+    --white: white;
+    --black: black;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    min-width: 320px;
+}
+
+.header-title {
+    font-size: 2.3rem;
+}
+
+.header-img {
+    width: 80px;
+    height: 80px;
+}
